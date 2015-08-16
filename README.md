@@ -24,3 +24,5 @@ With proper encapsulation, we should be able to limit the pieces that deal with 
 __What platform and language is the tool?__
 
 The platform will be Windows computers, so the tool is a .wsf (Windows Script File).  Some portions must be written in VBScript in order to have access to the filesystem.  As much of the rest as possible will be written in JScript.
+
+[Microsoft's site on Windows Script Files](https://msdn.microsoft.com/en-us/library/15x4407c.aspx) will be an important resource to reference.
