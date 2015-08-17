@@ -1,0 +1,29 @@
+<job id="ArrayTest">
+
+  ' A mere placeholder to make this a legal script and a base to work from.
+  <script language="VBScript">
+    WScript.Echo "hello"
+  </script>
+  
+  ' We create a JScript function that returns an array of arrays...
+  <script language="JScript">
+    function gimmeCats() {
+      var cats = [ ["Names", "Beansprout", "Pumpkin", "Max"], ["Ages", 6, 5, 4] ];
+      return cats;
+    }
+  </script>
+  
+  ' Test receipt of the function variable in VBScript
+  <script language="VBScript">
+    Dim a
+    a = gimmeCats()
+    WScript.Echo a
+  </script>
+  
+  
+  ' This is just to test how far we get in the script
+  <script language="VBScript">
+    WScript.Echo "at the end!"
+  </script>
+  
+</job>
