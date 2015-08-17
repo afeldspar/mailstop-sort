@@ -7,11 +7,11 @@
   
   ' Here we attempt to read the input files.
   '' We start by only enumerating the files to make sure the script is getting them
-  <script language="VBScript"></script>
+  <script language="VBScript">
     Set objArgs = WScript.Arguments
     For I = 0 to objArgs.Count - 1
 	    WScript.echo objArgs(I)
-	</script>
+  </script>
   
   
   ' If we don't have the correct files of the correct type,
