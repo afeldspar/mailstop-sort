@@ -5,4 +5,8 @@
     WScript.Echo "hello"
   </script>
   
+  ' Here we attempt to read the input files.
+  ' If we don't have the correct files of the correct type,
+  ' or if they can't be read, we alert the user and abort.
+  
 </job>
