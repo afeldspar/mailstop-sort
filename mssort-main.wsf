@@ -10,7 +10,8 @@
   <script language="VBScript">
     Set objArgs = WScript.Arguments
     For I = 0 to objArgs.Count - 1
-	    WScript.echo objArgs(I)
+      WScript.echo objArgs(I)
+    Next
   </script>
   
   
