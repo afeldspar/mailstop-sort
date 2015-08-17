@@ -9,7 +9,7 @@
   '' We start by only enumerating the files to make sure the script is getting them
   <script language="VBScript">
     Set objArgs = WScript.Arguments
-    For I = 0 to objArgs.Count - 1
+    For I = 0 To objArgs.Count - 1
       WScript.echo objArgs(I)
     Next
   </script>
@@ -18,5 +18,11 @@
   ' If we don't have the correct files of the correct type,
   ' or if they can't be read, we alert the user and abort.
   ' We use the VBScript command "WScript.Quit" to abort.
+  <script language="VBScript">
+    If objArgs.Count <> 2 Then
+      WScript.Echo "This script is designed to operate on one data file and one format file.  Please drop both files on the script icon."
+      WScript.Quit
+    End If
+  </script>
   
 </job>
