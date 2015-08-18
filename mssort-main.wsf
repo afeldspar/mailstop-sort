@@ -25,4 +25,14 @@
     End If
   </script>
   
+  ' By this point we must identify which is the format file and which is the data file.
+  
+  ' Here we read in the format file.
+  ' We can probably represent it as an array.
+  ' The elements of the array must include:
+  '   * Literal elements, allowing headers like "This is Chris's section of the list";
+  '   * Interest keys, specifying a subset of entries to be printed at that point in the output;
+  '   * Sorting instructions, telling us how to sort and format the entries collated by the interest key.
+  ' Is there anything else?
+  
 </job>
