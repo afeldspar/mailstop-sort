@@ -35,4 +35,13 @@
   '   * Sorting instructions, telling us how to sort and format the entries collated by the interest key.
   ' Is there anything else?
   
+  ' We will start with two "hard-wired" output formats:
+  '
+  ' * "Cubby" - Each mailstop is printed as a header, followed by one spacer line,
+  '             followed by each person at that mailstop, formatted as "Last (tab) First" on a single line,
+  '             followed by two spaces before the next mailstop.
+  '
+  ' * "Directory" - Every person, rendered as "Last, First (tab) Mailstop" on a single line.
+  
+  
 </job>
