@@ -1,9 +1,4 @@
 <job id="MailstopSort">
-
-  ' A mere placeholder to make this a legal script and a base to work from.
-  <script language="VBScript">
-    WScript.Echo "hello"
-  </script>
   
   ' Here we attempt to read the input files.
   '' We start by only enumerating the files to make sure the script is getting them
