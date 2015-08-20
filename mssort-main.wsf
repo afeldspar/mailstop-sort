@@ -1,12 +1,25 @@
 <job id="MailstopSort">
   
   ' Here we attempt to read the input files.
-  '' We start by only enumerating the files to make sure the script is getting them
   <script language="VBScript">
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+	  Const ForReading = 1, ForWriting = 2
+	  
     Set objArgs = WScript.Arguments
     For I = 0 To objArgs.Count - 1
-      WScript.echo objArgs(I)
+      WScript.Echo objArgs(I)
     Next
+    
+    Dim objInputFile
+    Set objInputFile = objFSO.OpenTextFile(objArgs(0), ForReading)
+    
+    n = 0
+    Do Until objInputFile.AtEndOfStream
+			thisLine = objInputFile.ReadLine
+			If n < 10 Then
+			  WScript.Echo thisLine
+			n = n + 1
+		Loop
   </script>
   
   
