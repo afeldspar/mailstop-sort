@@ -18,6 +18,7 @@
 			thisLine = objInputFile.ReadLine
 			If n < 10 Then
 			  WScript.Echo thisLine
+			End If
 			n = n + 1
 		Loop
   </script>
