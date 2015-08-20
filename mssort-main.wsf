@@ -3,7 +3,7 @@
   ' Here we attempt to read the input files.
   <script language="VBScript">
     Set objFSO = CreateObject("Scripting.FileSystemObject")
-	  Const ForReading = 1, ForWriting = 2
+    Const ForReading = 1, ForWriting = 2
 	  
     Set objArgs = WScript.Arguments
     For I = 0 To objArgs.Count - 1
@@ -15,12 +15,12 @@
     
     n = 0
     Do Until objInputFile.AtEndOfStream
-			thisLine = objInputFile.ReadLine
-			If n < 10 Then
-			  WScript.Echo thisLine
-			End If
-			n = n + 1
-		Loop
+      thisLine = objInputFile.ReadLine
+      If n < 10 Then
+        WScript.Echo thisLine
+      End If
+      n = n + 1
+    Loop
   </script>
   
   
