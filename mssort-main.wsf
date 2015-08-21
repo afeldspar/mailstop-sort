@@ -1,5 +1,10 @@
 <job id="MailstopSort">
   
+  ' This function only answers the question: is a line fed to it likely to have come from 
+  ' one of our input data files?
+  <script language="JScript" src="isDataLine.js"/>
+  
+  
   ' Here we attempt to read the input files.
   '
   ' We will assume, at this stage of development, that only one file is being dropped,
