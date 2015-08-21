@@ -1,6 +1,13 @@
 <job id="MailstopSort">
   
   ' Here we attempt to read the input files.
+  '
+  ' We will assume, at this stage of development, that only one file is being dropped,
+  ' and that it is the input file which contains the TSV data.
+  '
+  ' In later stages, we will expect both an input file and a format file,
+  ' so we will need code to make sure each is recognized as the file it is,
+  ' and abort the script if the right files are not acquired.
   <script language="VBScript">
     Set objFSO = CreateObject("Scripting.FileSystemObject")
     Const ForReading = 1, ForWriting = 2
