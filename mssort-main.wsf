@@ -2,11 +2,29 @@
   
   '$$$ Functions
   ' This is where we define functions which will be used later in the script.
+  <script language="VBScript">
+    Public Function fileRoleAssign (objArgs)
+      For I = 0 To objArgs.Count - 1
+        WScript.Echo objArgs(I)
+      Next
+    End Function
+  </script>
+  
   ' 
   '$$$ Functions to develop later
   ' These functions are not needed at this stage of development, but we know we will need them later.
   ' Right now they are commented out.
   ' <script language="JScript" src="isDataLine.js"/>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   ' Here we attempt to read the input files.
