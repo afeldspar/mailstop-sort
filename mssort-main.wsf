@@ -10,12 +10,12 @@
     End Function
   </script>
   
-  ' 
+  <!--
   '$$$ Functions to develop later
   ' These functions are not needed at this stage of development, but we know we will need them later.
   ' Right now they are commented out.
   ' <script language="JScript" src="isDataLine.js"/>
-  
+  -->
   
   
   
