@@ -2,13 +2,13 @@
   
   '$$$ Functions
   ' This is where we define functions which will be used later in the script.
-  <script language="VBScript">
-    Public Function fileRoleAssign (objArgs)
-      For I = 0 To objArgs.Count - 1
-        WScript.Echo objArgs(I)
-      Next
-    End Function
-  </script>
+  <script language="VBScript" src="fileRoleAssign.vbs"/>
+
+  
+  
+  
+  
+  
   
   <!--
   '$$$ Functions to develop later
