@@ -40,6 +40,13 @@
     Const ForReading = 1, ForWriting = 2
     
     Set objArgs = WScript.Arguments
+    fileRoleAssign(objArgs)
+    
+    
+    
+    
+    
+    
     For I = 0 To objArgs.Count - 1
       WScript.Echo objArgs(I)
     Next
@@ -58,6 +65,8 @@
     
     objInputFile.Close
   </script>
+  
+  
   
   
   
