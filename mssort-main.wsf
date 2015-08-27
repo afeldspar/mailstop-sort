@@ -55,8 +55,9 @@
       End If
       n = n + 1
     Loop
+    
+    objInputFile.Close
   </script>
-  
   
   
   
