@@ -23,7 +23,7 @@ Public Function fileRoleAssign (objArgs)
   message = message & vbCrlf & vbCrlf & "Please select one by number"
   defaultValue = ""
   
-  Dim myValue as Object
+  Dim myValue
   myValue = InputBox(message, title, defaultValue)
   
 End Function
