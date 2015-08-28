@@ -47,9 +47,9 @@
     
     
     
-    For I = 0 To objArgs.Count - 1
-      WScript.Echo objArgs(I)
-    Next
+  
+  
+  
     
     Dim objInputFile
     Set objInputFile = objFSO.OpenTextFile(objArgs(0), ForReading)
