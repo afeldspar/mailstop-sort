@@ -54,14 +54,14 @@
     Dim objInputFile
     Set objInputFile = objFSO.OpenTextFile(objArgs(0), ForReading)
     
-    n = 0
-    Do Until objInputFile.AtEndOfStream
-      thisLine = objInputFile.ReadLine
-      If n < 10 Then
-        WScript.Echo thisLine
-      End If
-      n = n + 1
-    Loop
+    ' n = 0
+    ' Do Until objInputFile.AtEndOfStream
+    '   thisLine = objInputFile.ReadLine
+    '   If n < 10 Then
+    '     WScript.Echo thisLine
+    '   End If
+    '   n = n + 1
+    ' Loop
     
     objInputFile.Close
   </script>
