@@ -29,20 +29,20 @@
   
   ' Here we attempt to read the input files.
   '
-  ' We will assume, at this stage of development, that only one file is being dropped,
-  ' and that it is the input file which contains the TSV data.
+  ' We use the fileRoleAssign function to interact with the user, and have
+  ' the user tell us which file(s) contain our user data, which has the formatting
+  ' instructions, and which has exception data. 
   '
-  ' In later stages, we will expect both an input file and a format file,
-  ' so we will need code to make sure each is recognized as the file it is,
-  ' and abort the script if the right files are not acquired.
+  ' Later, we will write code to check whether the files we receive actually
+  ' match what we're ready to accept and parse correctly.
+  
+  
   <script language="VBScript">
     Set objFSO = CreateObject("Scripting.FileSystemObject")
     Const ForReading = 1, ForWriting = 2
     
     Set objArgs = WScript.Arguments
     fileRoleAssign(objArgs)
-    
-    
     
     
     
