@@ -26,4 +26,8 @@ Public Function fileRoleAssign (objArgs)
   Dim myValue
   myValue = InputBox(message, title, defaultValue)
   
+  '$ Evaluate whether we can extract a number in the range 1 to objArgs.Count from the user's response.
+  '$ If not, try again (i.e., put the presentation of files and the request for an answer into a loop)
+  '$ If so, choose the file corresponding to the user's choice and make it the return value of the function.
+  
 End Function
