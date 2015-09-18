@@ -5,9 +5,9 @@
 
 Public Function fileRoleAssign (objArgs)
 
-  '$ We'll start by hard-coding the limit of files at 8.
-  '$ Any problems we run into with that are FAR in the future.
-  Dim filenameArray(8)
+  Dim filenameArray()
+  ReDim Preserve filenameArray(objArgs.Count - 1)
+
   Dim filenamesString
   filenamesString = ""
   
