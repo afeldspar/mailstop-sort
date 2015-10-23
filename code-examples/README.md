@@ -1,0 +1,1 @@
+These files are not code which will be used directly in the project; rather, they are here to demonstrate how particular coding tasks, such as passing complex data structures from JScript functions back to VBScript callers, can be done.
